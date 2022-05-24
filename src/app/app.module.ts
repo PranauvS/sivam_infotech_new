@@ -20,6 +20,13 @@ import {MatSelectModule} from '@angular/material/select';
 import { HomeComponent } from './home/home.component';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { AadharComponent } from './aadhar/aadhar.component';
+import { AadharComponent } from './eventregis/aadhar/aadhar.component';
+import { PanComponent } from './eventregis/pan/pan.component';
+import { PassportComponent } from './eventregis/passport/passport.component';
+import { FastagComponent } from './eventregis/fastag/fastag.component';
+import { MobilerechargeComponent } from './eventregis/mobilerecharge/mobilerecharge.component';
+import { TicketbookingComponent } from './eventregis/ticketbooking/ticketbooking.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +36,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EventComponent,
     EventregisComponent,
     HomeComponent,
+    AadharComponent,
+    PanComponent,
+    PassportComponent,
+    FastagComponent,
+    MobilerechargeComponent,
+    TicketbookingComponent,
   ],
   imports: [
     BrowserModule,

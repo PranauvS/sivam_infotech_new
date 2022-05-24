@@ -31,7 +31,7 @@ err:any;
       response  => console.log(this.res=response),
       error  => this.err=error,
       );
-      await delay(3000);
+      await delay(2000);
 
       console.log("s"+this.res);
       console.log(JSON.stringify(this.res));
@@ -41,6 +41,7 @@ err:any;
         alert("Login Successfull");
         this.router.navigate(['/eregis']);
         console.log("passed");
+        
       }
       if(JSON.stringify(this.res)==='{"message":"negative"}'){
         this.router.navigate(['/wpopup']);
